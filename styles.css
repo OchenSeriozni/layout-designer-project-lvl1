@@ -51,7 +51,7 @@ body{
     top:55px;
     right: -270px;
     width: 1082px;
-    margin-left: 500px;
+    margin-left: 700px;
 }
 
 .text{
@@ -99,8 +99,8 @@ flex-direction: column;
 }
 .heading-heder{
     position: absolute;
-    top:50px;
-    right: 49%;
+    top:10px;
+    right: 770px;
 }
 .position-relative{
     position: relative;
@@ -126,4 +126,17 @@ p{
     font-size: var(--font-size);
     font-family: Open Sans;
     color: var(--main-font);
+}
+/*http://caring-door.surge.sh/ - 1 слайд*/
+/* container - main content*/
+.container-main{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
 }
