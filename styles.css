@@ -135,9 +135,10 @@ p{
     background-color: var(--main-color-black) ;
     background-size: cover; 
 }
-
+.section-card{
+    margin-top: 100px;
+}
 .container-cards{
-    margin-top: 7%;
     display: flex;
     width: 100%px;
     flex-wrap: wrap;
@@ -186,4 +187,14 @@ line-height:1;
     padding: 24px 24px 24px 24px;
     margin: 28px;
     justify-content: space-around;
+    border: none;
+}
+.card:hover .subtitle-card{
+    background-color: var(--main-color-black);
+    color: var(--light);
+
+}
+.card:hover{
+    background-color: var(--main-color-black);
+    color: var(--light);
 }
